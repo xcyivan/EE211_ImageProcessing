@@ -1,0 +1,4 @@
+b_girlface=imread('girlface_blurred.tiff')
+b_lena=imread('lena_blurred.tiff')
+b_lena_gray=rgb2gray(b_lena)
+imshow(b_lena_gray)
